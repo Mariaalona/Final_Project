@@ -1,0 +1,104 @@
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ Filename: responsive.css; ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ responsive design start ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ screen only 991px x 768px ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header .navbar .h-container {
+		padding: 0;
+		width: auto;
+		height: 80%;
+	}
+	.header .navbar .h-container .title .logo {
+	    height: 50px;
+	    width: 50px;
+	}
+}
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ screen only 767px x 559px ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+	.header .navbar .h-container {
+		padding: 0;
+		width: auto;
+		height: 60%;
+	}
+	.header .navbar .h-container .title .logo {
+	    height: 40px;
+	    width: 40px;
+	}
+	.header .navbar  .h-container .title .heading {
+		font-size: 26px;
+	}
+	.header .navbar  .h-container .header-btn .header-btn-container .heading-btn {
+		font-size: 12px;
+	}
+}
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ screen only 598px x 280px ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+@media only screen and (min-width: 280px) and (max-width: 598px) {
+	.header .navbar .h-container {
+		padding: 0;
+		width: auto;
+		height: 50%;
+		justify-content: center;
+	}
+	.header .navbar .h-container .title .logo {
+	    height: 35px;
+	    width: 35px;
+	}
+	.header .navbar  .h-container .title .heading {
+		font-size: 24px;
+	}
+	.header .navbar  .h-container .header-btn .header-btn-container{
+		display: none;
+	}
+	.section-navigator {
+		width: 30px;
+	}
+	.section-navigator .section-navbar .list .nav-icon {
+		width: 30px;
+	}
+	.section-navigator .section-navbar .list .nav-item {
+		width: 30px;
+	}
+    .social-navbar .item .facebook:before{
+        border-right:none;
+        border-left:none;
+    }
+    .social-navbar .item .instagram:before{
+        border-right:none;
+        border-left:none;
+    }
+    .social-navbar .item .twitter:before{
+        border-right:none;
+        border-left:none;
+    }
+    .social-navbar .item .whatsapp:before{
+        border-right:none;
+        border-left:none;
+    }
+    .social-navbar .item .reddit:before{
+        border-right:none;
+        border-left:none;
+    }
+    .social-navbar .item .telegram:before{
+        border-right:none;
+        border-left:none;
+    }
+    .social-navbar .item .youtube:before{
+        border-right:none;
+        border-left:none;
+    }
+    .social-navbar .item .linkedin:before{
+        border-right:none;
+        border-left:none;
+    }
+    .section-holder .home .container-fluid .container-home .container_outer_img {
+    	display: none;
+    	text-align: center;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,351 @@
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ Filename: style.icon.css ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ icon style start ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+
+
+
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ sidebar icon start ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+.list .nav-icon{
+  color: white;
+}
+
+.list .nav-item:hover .nav-icon{
+  transform:scale(1.3);
+  -webkit-transform:scale(1.3);
+  color: rgba(220, 220, 220, 1.0);
+}
+
+/*   /NAV-1   */
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ sidebar icon end ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+
+/* ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ Social nabvar icon start ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ */
+.social-navbar .facebook{
+  font-family: 'Righteous', Arial, sans-serif;
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  font-size:1.1em;
+  color:#2d5cff;
+}
+.social-navbar .facebook:before{
+  -webkit-transition:0.3s ease-in-out;
+  -webkit-transform:translateY(20px);
+  transition:0.3s ease-in-out;
+  transform:translateY(20px);
+  background:transparent;
+  border-radius: 20%;
+  opacity:1;
+}
+.social-navbar .facebook:after{
+  -webkit-transform:translateY(300px);
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  transform:translateY(30px);
+  font-size:0.5em;
+  color:#2d5cff;
+  opacity:0;
+}
+.social-navbar .item:hover .facebook:before{
+  -webkit-transform:translateY(0%);
+  -webkit-transition-delay:0.3s;
+  transform:translateY(0%);
+  transition-delay:0.3s;
+}
+.social-navbar .item:hover .facebook:after{
+  -webkit-transform:translateY(0px);
+  -webkit-transition-delay:0.5s;
+  transform:translateY(0px);
+  transition-delay:0.5s;
+  opacity:1;
+}
+.social-navbar .item:hover .facebook{
+  -webkit-transform:scale(1.3);
+  color:rgba(0,0,255,8);
+  transform:scale(1.3);
+}
+
+.social-navbar .twitter{
+  font-family: 'Righteous', Arial, sans-serif;
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  font-size:1.1em;
+  color: #2d5cff;
+}
+.social-navbar .twitter:before{
+  -webkit-transition:0.3s ease-in-out;
+  -webkit-transform:translateY(20px);
+  transition:0.3s ease-in-out;
+  transform:translateY(20px);
+  background:transparent;
+  border-radius: 20%;
+  opacity:1;
+}
+.social-navbar .twitter:after{
+  -webkit-transform:translateY(300px);
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  transform:translateY(30px);
+  font-size:0.5em;
+  color:#2d5cff;
+  opacity:0;
+}
+
+.social-navbar .item:hover .twitter:before{
+  -webkit-transform:translateY(0%);
+  -webkit-transition-delay:0.3s;
+  transform:translateY(0%);
+  transition-delay:0.3s;
+}
+.social-navbar .item:hover .twitter:after{
+  -webkit-transform:translateY(0px);
+  -webkit-transition-delay:0.5s;
+  transform:translateY(0px);
+  transition-delay:0.5s;
+  opacity:1;
+}
+.social-navbar .item:hover .twitter{
+  -webkit-transform:scale(1.3);
+  color:#2d5cff;
+  transform:scale(1.3);
+}
+
+.social-navbar .whatsapp{
+  font-family: 'Righteous', Arial, sans-serif;
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  font-size:1.1em;
+  color: #1afb2d;
+}
+.social-navbar .whatsapp:before{
+  -webkit-transition:0.3s ease-in-out;
+  -webkit-transform:translateY(20px);
+  transition:0.3s ease-in-out;
+  transform:translateY(20px);
+  background:transparent;
+  border-radius: 20%;
+  opacity:1;
+}
+.social-navbar .whatsapp:after{
+  -webkit-transform:translateY(300px);
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  transform:translateY(30px);
+  font-size:0.5em;
+  color:#1afb2d;
+  opacity:0;
+}
+
+.social-navbar .item:hover .whatsapp:before{
+  -webkit-transform:translateY(0%);
+  -webkit-transition-delay:0.3s;
+  transform:translateY(0%);
+  transition-delay:0.3s;
+}
+.social-navbar .item:hover .whatsapp:after{
+  -webkit-transform:translateY(0px);
+  -webkit-transition-delay:0.5s;
+  transform:translateY(0px);
+  transition-delay:0.5s;
+  opacity:1;
+}
+.social-navbar .item:hover .whatsapp{
+  -webkit-transform:scale(1.3);
+  color:#1afb2d;
+  transform:scale(1.3);
+}
+
+.social-navbar .reddit{
+  font-family: 'Righteous', Arial, sans-serif;
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  font-size:1.1em;
+  color: #fc350c;
+}
+.social-navbar .reddit:before{
+  -webkit-transition:0.3s ease-in-out;
+  -webkit-transform:translateY(20px);
+  transition:0.3s ease-in-out;
+  transform:translateY(20px);
+  background:transparent;
+  border-radius: 20%;
+  opacity:1;
+}
+.social-navbar .reddit:after{
+  -webkit-transform:translateY(300px);
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  transform:translateY(30px);
+  font-size:0.5em;
+  color:#fc350cfc350c;
+  opacity:0;
+}
+
+.social-navbar .item:hover .reddit:before{
+  -webkit-transform:translateY(0%);
+  -webkit-transition-delay:0.3s;
+  transform:translateY(0%);
+  transition-delay:0.3s;
+}
+.social-navbar .item:hover .reddit:after{
+  -webkit-transform:translateY(0px);
+  -webkit-transition-delay:0.5s;
+  transform:translateY(0px);
+  transition-delay:0.5s;
+  opacity:1;
+}
+.social-navbar .item:hover .reddit{
+  -webkit-transform:scale(1.3);
+  color:#fc350c;
+  transform:scale(1.3);
+}
+.social-navbar .telegram{
+  font-family: 'Righteous', Arial, sans-serif;
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  font-size:1.1em;
+  color: #0e37fc;
+}
+.social-navbar .telegram:before{
+  -webkit-transition:0.3s ease-in-out;
+  -webkit-transform:translateY(20px);
+  transition:0.3s ease-in-out;
+  transform:translateY(20px);
+  background:transparent;
+  border-radius: 20%;
+  opacity:1;
+}
+.social-navbar .telegram:after{
+  -webkit-transform:translateY(300px);
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  transform:translateY(30px);
+  font-size:0.5em;
+  color:#2d5cff;
+  opacity:0;
+}
+
+.social-navbar .item:hover .telegram:before{
+  -webkit-transform:translateY(0%);
+  -webkit-transition-delay:0.3s;
+  transform:translateY(0%);
+  transition-delay:0.3s;
+}
+.social-navbar .item:hover .telegram:after{
+  -webkit-transform:translateY(0px);
+  -webkit-transition-delay:0.5s;
+  transform:translateY(0px);
+  transition-delay:0.5s;
+  opacity:1;
+}
+.social-navbar .item:hover .telegram{
+  -webkit-transform:scale(1.3);
+  color:#0e37fc;
+  transform:scale(1.3);
+}
+.social-navbar .youtube{
+  font-family: 'Righteous', Arial, sans-serif;
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  font-size:1.1em;
+  color: #fc350c;
+}
+.social-navbar .youtube:before{
+  -webkit-transition:0.3s ease-in-out;
+  -webkit-transform:translateY(20px);
+  transition:0.3s ease-in-out;
+  transform:translateY(20px);
+  background:transparent;
+  border-radius: 20%;
+  opacity:1;
+}
+.social-navbar .youtube:after{
+  -webkit-transform:translateY(300px);
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  transform:translateY(30px);
+  font-size:0.5em;
+  color:#fc350c;
+  opacity:0;
+}
+
+.social-navbar .item:hover .youtube:before{
+  -webkit-transform:translateY(0%);
+  -webkit-transition-delay:0.3s;
+  transform:translateY(0%);
+  transition-delay:0.3s;
+}
+.social-navbar .item:hover .youtube:after{
+  -webkit-transform:translateY(0px);
+  -webkit-transition-delay:0.5s;
+  transform:translateY(0px);
+  transition-delay:0.5s;
+  opacity:1;
+}
+.social-navbar .item:hover .youtube{
+  -webkit-transform:scale(1.3);
+  color:#fc350c;
+  transform:scale(1.3);
+}
+.social-navbar .linkedin{
+  font-family: 'Righteous', Arial, sans-serif;
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  font-size:1.1em;
+  color: #0e37fc;
+}
+.social-navbar .linkedin:before{
+  -webkit-transition:0.3s ease-in-out;
+  -webkit-transform:translateY(20px);
+  transition:0.3s ease-in-out;
+  transform:translateY(20px);
+  background:transparent;
+  border-radius: 20%;
+  opacity:1;
+}
+.social-navbar .linkedin:after{
+  -webkit-transform:translateY(300px);
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.3s ease-in-out;
+  transform:translateY(30px);
+  font-size:0.5em;
+  color:#2d5cff;
+  opacity:0;
+}
+
+.social-navbar .item:hover .linkedin:before{
+  -webkit-transform:translateY(0%);
+  -webkit-transition-delay:0.3s;
+  transform:translateY(0%);
+  transition-delay:0.3s;
+}
+.social-navbar .item:hover .linkedin:after{
+  -webkit-transform:translateY(0px);
+  -webkit-transition-delay:0.5s;
+  transform:translateY(0px);
+  transition-delay:0.5s;
+  opacity:1;
+}
+.social-navbar .item:hover .linkedin{
+  -webkit-transform:scale(1.3);
+  color:#0e37fc;
+  transform:scale(1.3);
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ icon style end ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */

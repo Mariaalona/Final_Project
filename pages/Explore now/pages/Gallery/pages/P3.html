@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taro</title>
+  
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- custom css file cdn link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+ 
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+
+<header class="header">
+    <div class="icons">
+        <div class="fas fa-share" id="theme-btn" onclick="history.back()"></div>
+    </div>
+    <a href="#" class="logo"> <i class="fas fa-dollar"></i> Patrick Sadicon <i class="fas fa-dollar"></i></a>
+
+    <div></div>
+</header>
+
+<!-- header section ends -->
+
+<!-- body section starts -->
+    
+<!-- br tag for big space -->
+<p class="br"></p>
+<!-- br tag end-->
+
+<section class="blogs" id="blogs">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up">
+
+            <section class="pricing" id="pricing">
+
+                <div class="box-container">
+
+                    <div class="box" data-aos="zoom-in-up">
+
+                        <div class="container">
+                            <div class="mySlides">
+                                <img src="images/3.jpg" style="width:100%">
+                            </div>
+                        </div>
+                        <script>
+                            let slideIndex = 1;
+                            showSlides(slideIndex);
+
+                            function plusSlides(n) {
+                                showSlides(slideIndex += n);
+                            }
+
+                            function currentSlide(n) {
+                                showSlides(slideIndex = n);
+                            }
+
+                            function showSlides(n) {
+                                let i;
+                                let slides = document.getElementsByClassName("mySlides");
+                                if (n > slides.length) { slideIndex = 1 }
+                                if (n < 1) { slideIndex = slides.length }
+                                for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none";
+                                }
+                                slides[slideIndex - 1].style.display = "block";
+                            }
+                        </script>
+
+                        <h3 class="heading"> <span>Taro Mukbang</span> </h3>
+                        <div class="content">
+                            
+                            <div class="icons">
+                                <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2022 </a>
+                                <a href="#"> <i class="fas fa-user"></i> by Patrick</a>
+                            </div>
+                            <br>
+                            <h3 class="heading">Taro chips <span>Patrick</span> </h3>
+                        <br><br><br>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+<!-- body section ends-->
+
+<!-- br tag for big space -->
+<p class="br1"></p>
+<!-- br tag end-->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <center>   
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <h3>Our Location</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Gasan Marinduque </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-google"></i> google </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            </div>
+        </div>
+
+    </center>
+
+    <div class="credit"> created by <a href="Alona/Alona.html">Maria Alona</a> | all rights reserved </div>
+</section>
+
+<!-- footer section ends -->
+
+</body>
+</html>

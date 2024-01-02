@@ -1,0 +1,275 @@
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ Filename: bootstrap.icon.css ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ icon bootstrap start ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ sidebar icon start ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+
+.section-navigator .section-navbar .list .nav-icon {
+  font-size:1em;
+  width:40px;
+  z-index:2;
+  text-align: center;
+  text-decoration:none;
+  text-transform:uppercase;
+  transition:0.3s ease-in-out;
+  -webkit-transition:0.3s ease-in-out;
+}
+.section-navigator .section-navbar .list .nav-item:hover .nav-icon:before{
+  opacity:1;
+  transition:0.3s ease-in-out;
+  -webkit-transition:0.3s ease-in-out;
+  transform:scale(0.7);
+  -webkit-transform:scale(0.7);
+}
+
+
+
+
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ sidebar icon end ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */
+/* ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ Social navbar icon start ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ */
+.social-navbar .facebook {
+  position:relative;
+  z-index:2;
+  top:0px;
+}
+.social-navbar .facebook:before {
+  border-right:3px solid #2d5cff;
+  border-left:3px solid #2d5cff;
+  width:calc(100% + 5px);
+  position:absolute;
+  max-height:0%;
+  height:115%;
+  content:'';
+  left:-5px;
+  top:2px;
+}
+
+.social-navbar .facebook:after {
+  content:attr(data-text);
+  display:inline-block;
+  position:absolute;
+  font-size: 8px;
+  width:100%;
+  top:20px;
+  left:0px;
+}
+
+.social-navbar .item:hover .facebook {
+  top:-10px;
+}
+
+.social-navbar .item:hover .facebook:before {
+  max-height:150%;
+}
+
+
+
+.social-navbar .twitter {
+  position:relative;
+  z-index:2;
+  top:0px;
+}
+.social-navbar .twitter:before {
+  border-right:3px solid #2d5cff;
+  border-left:3px solid #2d5cff;
+  width:calc(100% + 5px);
+  position:absolute;
+  max-height:0%;
+  height:115%;
+  content:'';
+  left:-5px;
+  top:2px;
+}
+
+.social-navbar .twitter:after {
+  content:attr(data-text);
+  display:inline-block;
+  position:absolute;
+  font-size: 8px;
+  width:100%;
+  top:20px;
+  left:0px;
+}
+
+.social-navbar .item:hover .twitter {
+  top:-10px;
+}
+
+.social-navbar .item:hover .twitter:before {
+  max-height:150%;
+}
+
+.social-navbar .whatsapp {
+  position:relative;
+  z-index:2;
+  top:0px;
+}
+.social-navbar .whatsapp:before {
+  border-right:3px solid #1afb2d;
+  border-left:3px solid #1afb2d;
+  width:calc(100% + 5px);
+  position:absolute;
+  max-height:0%;
+  height:115%;
+  content:'';
+  left:-5px;
+  top:2px;
+}
+
+.social-navbar .whatsapp:after {
+  content:attr(data-text);
+  display:inline-block;
+  position:absolute;
+  font-size: 8px;
+  width:100%;
+  top:20px;
+  left:0px;
+}
+
+.social-navbar .item:hover .whatsapp {
+  top:-10px;
+}
+
+.social-navbar .item:hover .whatsapp:before {
+  max-height:150%;
+}
+
+.social-navbar .reddit {
+  position:relative;
+  z-index:2;
+  top:0px;
+}
+.social-navbar .reddit:before {
+  border-right:3px solid #fc350c;
+  border-left:3px solid #fc350c;
+  width:calc(100% + 5px);
+  position:absolute;
+  max-height:0%;
+  height:115%;
+  content:'';
+  left:-5px;
+  top:2px;
+}
+
+.social-navbar .reddit:after {
+  content:attr(data-text);
+  display:inline-block;
+  position:absolute;
+  font-size: 8px;
+  width:100%;
+  top:20px;
+  left:0px;
+}
+
+.social-navbar .item:hover .reddit {
+  top:-10px;
+}
+
+.social-navbar .item:hover .reddit:before {
+  max-height:150%;
+}
+
+.social-navbar .telegram {
+  position:relative;
+  z-index:2;
+  top:0px;
+}
+.social-navbar .telegram:before {
+  border-right:3px solid #2d5cff;
+  border-left:3px solid #2d5cff;
+  width:calc(100% + 5px);
+  position:absolute;
+  max-height:0%;
+  height:115%;
+  content:'';
+  left:-5px;
+  top:2px;
+}
+
+.social-navbar .telegram:after {
+  content:attr(data-text);
+  display:inline-block;
+  position:absolute;
+  font-size: 8px;
+  width:100%;
+  top:20px;
+  left:0px;
+}
+
+.social-navbar .item:hover .telegram {
+  top:-10px;
+}
+
+.social-navbar .item:hover .telegram:before {
+  max-height:150%;
+}
+
+.social-navbar .youtube {
+  position:relative;
+  z-index:2;
+  top:0px;
+}
+.social-navbar .youtube:before {
+  border-right:3px solid #fc350c;
+  border-left:3px solid #fc350c;
+  width:calc(100% + 5px);
+  position:absolute;
+  max-height:0%;
+  height:115%;
+  content:'';
+  left:-5px;
+  top:2px;
+}
+
+.social-navbar .youtube:after {
+  content:attr(data-text);
+  display:inline-block;
+  position:absolute;
+  font-size: 8px;
+  width:100%;
+  top:20px;
+  left:0px;
+}
+
+.social-navbar .item:hover .youtube {
+  top:-10px;
+}
+
+.social-navbar .item:hover .youtube:before {
+  max-height:150%;
+}
+
+.social-navbar .linkedin {
+  position:relative;
+  z-index:2;
+  top:0px;
+}
+.social-navbar .linkedin:before {
+  border-right:3px solid #2d5cff;
+  border-left:3px solid #2d5cff;
+  width:calc(100% + 5px);
+  position:absolute;
+  max-height:0%;
+  height:115%;
+  content:'';
+  left:-5px;
+  top:2px;
+}
+
+.social-navbar .linkedin:after {
+  content:attr(data-text);
+  display:inline-block;
+  position:absolute;
+  font-size: 8px;
+  width:100%;
+  top:20px;
+  left:0px;
+}
+
+.social-navbar .item:hover .linkedin {
+  top:-10px;
+}
+
+.social-navbar .item:hover .linkedin:before {
+  max-height:150%;
+}
+/* 〣╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾ icon bootstarp end ╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼〣 */

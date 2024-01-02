@@ -1,0 +1,19 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition:all .2s linear;
+}
+
+.br {
+    margin-bottom: 2.5em;
+}
+.label {
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-size: 1em;
+}
